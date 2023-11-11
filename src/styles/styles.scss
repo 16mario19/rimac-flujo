@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+$paragraphColor : #494F66;
+$auxColor : #6464FA;
+$ButtonPrimary: #FF1C44 ;
+
+.App {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 300) {
+        flex-direction: row;        
+    }
+}
+
+h5{
+    size: 10px;
+    font-family: 'Lato';
+    line-height: 16px;
+    color: $paragraphColor;
+}
+
+h3{
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Lato';
+    line-height: 36px;
+    color: $paragraphColor;
+}
+
+p{
+    font-family: 'Roboto', sans-serif ;
+    color: $paragraphColor;
+}
+
+body{
+    margin: 0;
+}
+
+@import './components/header';
+@import './components/LoginAuxInfo';
+@import './components/formulario'

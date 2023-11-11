@@ -1,0 +1,23 @@
+.header {
+    margin: 0 32px;
+    //width: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__contact{
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__phone-icon{
+
+}
+
+.header__phone-text{
+    font-size: 14px;
+    line-height: 24px;
+    color: $auxColor;
+}
