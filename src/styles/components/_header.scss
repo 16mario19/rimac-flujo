@@ -4,6 +4,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (min-width: 800px) {
+        margin: 0 88px;        
+        height: 64px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin: 0 120px;        
+    }
 }
 
 .header__contact{

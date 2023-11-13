@@ -5,10 +5,14 @@ import LoginInfo from './components/LoginAuxInfo.js';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Header/>
       <div className='MainContent'>
-        <LoginInfo></LoginInfo>      
-        <Formulario></Formulario>
+        <div className='SideAuxInfo'>
+          <LoginInfo/>      
+        </div>
+        <div className='MainForm'>
+          <Formulario/>
+        </div>
       </div>
     </div>
   );

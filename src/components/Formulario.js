@@ -3,7 +3,7 @@ const Formulario = () => {
 
     return (
         <div class="formulario">
-            <h3 class="noaline" >Déjanos tus datos</h3>
+            <h4 class="noaline" >Déjanos tus datos</h4>
             <div class="formulario__inputComp">
                 <select>
                     <option>DNI</option>
@@ -20,8 +20,16 @@ const Formulario = () => {
             </div>
             <div class="formulario__policy noaline">
                 <input class="formulario__checkPolicy" type="checkbox" />
-                <p>
-                Acepto la Política de Protecciòn de Datos Personales y los Términos y Condiciones.
+                <p class="policyFont">
+                Acepto la 
+                <a href="#">
+                 Política de Protección de Datos Personales
+                </a> y 
+                los 
+                <a href="#">
+                Términos y Condiciones.
+
+                </a>
                 </p>
             </div>
             <button 
